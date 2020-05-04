@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body #root {
+    display: flex;
+    width: 100%;
+}
