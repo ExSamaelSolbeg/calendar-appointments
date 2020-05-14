@@ -2,7 +2,7 @@ import React from 'react';
 import { WithStyles, withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
-import { daysArr } from '../../../utils/dateUtils';
+import { daysArr } from 'utils/dateUtils';
 import styles from './styles';
 
 interface Props extends WithStyles<typeof styles>{}

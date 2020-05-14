@@ -1,4 +1,4 @@
-export default interface Reminder {
+export default interface IReminder {
     color: string;
     text: string;
     date: Date;

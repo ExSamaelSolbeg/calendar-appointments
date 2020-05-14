@@ -16,7 +16,7 @@ import MuiPickersUtilsProvider from 'material-ui-pickers/MuiPickersUtilsProvider
 import { WithStyles, withStyles } from '@material-ui/core/styles';
 import DateFnsUtils from '@date-io/date-fns';
 
-import IReminder from '../../interfaces/reminder';
+import IReminder from 'interfaces/reminder';
 import styles from './styles';
 
 interface Props extends WithStyles<typeof styles>{

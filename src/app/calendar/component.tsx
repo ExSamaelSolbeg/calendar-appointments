@@ -1,9 +1,9 @@
 import React from 'react'
 import { WithStyles, withStyles } from '@material-ui/core/styles'
 
+import { getMonthCells } from 'utils/dateUtils';
 import CalendarDaysHeader from './calendar-days-header';
 import CalendarMonth from './calendar-month';
-import { getMonthCells } from '../../utils/dateUtils';
 import styles from './styles';
 
 interface Props extends WithStyles<typeof styles>{

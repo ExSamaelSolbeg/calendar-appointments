@@ -3,7 +3,7 @@ import Avatar from '@material-ui/core/Avatar';
 import { WithStyles, withStyles } from '@material-ui/core/styles';
 import { format as formatDate, isSameMonth, isSameDay, getDate } from 'date-fns';
 
-import IReminder from '../../../../interfaces/reminder';
+import IReminder from 'interfaces/reminder';
 import styles from './styles';
 
 interface DateObj {

@@ -1,9 +1,9 @@
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import { openAgenda } from 'store/actions';
+import IReminder from 'interfaces/reminder';
 import CalendarMonthDay from './component';
-import { openAgenda } from '../../../../redux/actions';
-import IReminder from '../../../../interfaces/reminder';
 
 interface State {
     remindersStatus: {

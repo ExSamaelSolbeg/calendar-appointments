@@ -1,9 +1,8 @@
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import { openAddReminder } from 'store/actions';
 import App from './component';
-
-import { openAddReminder } from '../redux/actions';
 
 interface State {
 }
